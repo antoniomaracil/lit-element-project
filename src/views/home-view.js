@@ -6,7 +6,8 @@ export class HomeView extends LitElement {
   }
 
   render() {
-    return html`<div>Hello world</div>`;
+    return html`<div>Hello world</div>
+      <p>Probando Husky</p>`;
   }
 }
 customElements.define('home-view', HomeView);
