@@ -18,8 +18,10 @@ class AppShell extends LitElement {
   }
 
   render() {
-    return html` <div id="root"></div>
-    <home-view></home-view> `;
+    return html`
+      <div id="root"></div>
+      <home-view></home-view>
+    `;
   }
 }
 
